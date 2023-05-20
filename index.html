@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reto Encriptador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<section class="titulo">
+  <div class="tamaño-logo">
+    <img class="logo" src="img/Logo.png"> 
+  </div>
+  <div class="tamaño-h1">
+    <h1> CÓDIGO ENCRIPTADOR</h1> 
+  </div>
+  <div class="tamaño-piña">
+    <img src="img/piña.png" class="piña">
+  </div>
+</section>
+
+<section class="cuerpo">
+  <div class="ent-sal">
+    <textarea placeholder="Escribe aquí tu texto" type="text" class="entrada"></textarea>
+    <textarea placeholder="Aquí se codificará tu texto" oninput="borrar_img()" type="text" class="salida"></textarea>
+  </div>
+</section>
+
+<section>
+  <div class="mensaje">
+    Solo puedes usar palabras en minusculas y sin tilde
+  </div>
+</section>
+
+<section class="botones">
+  <div>
+    <button onclick="encriptar()" class="encriptar">Encriptar</button>
+    <button onclick="copiar()" class="copiar">Copiar </button>
+    <button onclick="pegar()" class="pegar">Pegar</button>
+    <button onclick="desencriptar()" class="desencriptar">Desencriptar</button>
+    
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>

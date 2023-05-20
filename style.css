@@ -1,0 +1,80 @@
+/* general */
+* {
+    background: #F3F5FC;;
+}
+
+/* titulo */
+.titulo {
+    display: flex;
+  }
+  
+  .tamaño-logo {
+    width: 15%;
+  }
+  
+  .logo {
+    flex: 15%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .tamaño-h1 {
+    flex: 70%;
+    
+  }
+  
+  h1 {
+    font-size: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .tamaño-piña {
+    flex: 15%;
+  }
+  
+  .piña {
+    width: 60px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+  }
+
+/* cuadros de texto */
+.ent-sal {
+    display: flex;
+    width: 100%;
+}
+.cuerpo {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+.entrada, .salida {
+    width: 48%;
+    height: 750px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+.entrada, .salida:focus {
+    outline: none;
+}
+.salida {
+    background-image: url("img/muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* mensaje */
+.mensaje {
+    width: 50%;
+}
+
+/* botones */
+.botones {
+    display: flex;
+    width: 100%;
+}
